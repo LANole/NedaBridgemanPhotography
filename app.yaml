@@ -1,4 +1,3 @@
-application: NedaBridgemanPhotography
 runtime: nodejs
 env: flex
 
