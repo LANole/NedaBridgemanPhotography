@@ -28,5 +28,8 @@
   },
   "engines": {
     "node": "7.9.0"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^2.4.0"
   }
 }
