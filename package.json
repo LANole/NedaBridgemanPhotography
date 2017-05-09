@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Neda Bridgeman Photography for newborns, weddings, corporate events and commercial marketing",
   "main": "gulpfile.js",
+
+  "keywords": [],
+  "author": "Tom Bridgeman",
+  "license": "ISC",
+
   "dependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
@@ -18,15 +23,12 @@
     "magnific-popup": "^1.1.0",
     "scrollreveal": "^3.1.4"
   },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Tom Bridgeman",
-  "license": "ISC"
+  }
 
-{ "engines" : { "node" : "7.9.0" } }
-
+  { "engines" : { "node" : "7.9.0" } },
 }
 
 
