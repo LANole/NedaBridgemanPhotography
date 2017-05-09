@@ -7,6 +7,6 @@ app.all('/', function(req, res) {
     res.sendFile('index.html', { root: 'public'});
 });
 
-app.listen(8000, function () {
+app.listen(8080, function () {
   console.log("I'm listening...");
 })
