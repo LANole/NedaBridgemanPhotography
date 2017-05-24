@@ -19,9 +19,6 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran:200|Cormorant" rel="stylesheet">
     
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
 
@@ -99,144 +96,89 @@
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="portfolio-item gallery" style="padding-bottom: 30px">                         
-                                <a href="img/portfolio/fullsize/entertainment/1.jpg" class="portfolio-box" data-toggle="modal" data-target=".bs-example-modal-lg">                 
-                                  <img src="img/portfolio/thumbnails/entertainment/1.jpg" class="img-responsive" alt="">
-                                    <div class="portfolio-box-caption">
-                                      <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">Category</div>
-                                            <div class="project-name">Entertainment</div>
-                                      </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                  <div class="modal-content">
-                                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                                      <!-- Wrapper for slides -->
-                                      <div class="carousel-inner">
-                                        <div class="item active">
-                                         <img class="img-responsive" src="img/portfolio/fullsize/entertainment/1.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/entertainment/2.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/entertainment/3.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/entertainment/4.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/entertainment/5.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/entertainment/6.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/entertainment/7.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/entertainment/8.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/entertainment/9.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                      </div>
-                                  <!-- Controls -->
-                                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                  </a>
-                                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                  </a>
-                                </div>
-                                    </div>
-                                  </div>
-                                </div>
+                          <div class="portfolio-item" style="padding-bottom: 30px">                         
+                            <ul class="list-inline">
+                              <li data-toggle="modal" data-target="#entertainmentModal"><a href="#entertainmentGallery" data-slide-to="0"><img class="img-thumbnail" src="img/portfolio/thumbnails/entertainment/1.jpg"><br>
+                                Entertainment</a></li> 
+
+                              <!--begin modal window-->
+                            <div class="modal fade" id="entertainmentModal">
+                              <div class="modal-dialog">
+                               <div class="modal-content">
+                                <div class="modal-header">
+                                 <div class="pull-left">My Entertainment Gallery</div>
+                                  <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+                                 </div>
+                                <div class="modal-body">
+
+                                <!--CAROUSEL CODE GOES HERE-->
+                                 <!--begin carousel-->
+                                  <div id="entertainmentGallery" class="carousel slide" data-interval="false">
+                                   <div class="carousel-inner">
+                                    <div class="item active"> <img src="img/portfolio/fullsize/entertainment/1.jpg" alt="item0"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/entertainment/2.jpg" alt="item1"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/entertainment/3.jpg" alt="item2"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/entertainment/4.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/entertainment/5.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/entertainment/6.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/entertainment/7.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/entertainment/8.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/entertainment/9.jpg" alt="item3"></div>                                    
+                                  </div><!--end carousel-inner-->
+                                  <!--Begin Previous and Next buttons-->
+                                  <a class="left carousel-control" href="#entertainmentGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#entertainmentGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+                                  </div><!--end carousel-->
+                                </div><!--end modal-body-->
+                                
+                               </div><!--end modal-content-->
+                              </div><!--end modal-dialog-->
+                            </div><!--end myModal-->
+
+                        </div><!-- /.container -->
+
+
                         </div>                   
 
                         <div class="col-md-6">
-                            <div class="portfolio-item gallery" style="padding-bottom: 30px">                         
-                                <a href="img/portfolio/fullsize/lifestyle/2.jpg" class="portfolio-box" data-toggle="modal" data-target=".bs-lifestyle-modal-lg">                 
-                                  <img src="img/portfolio/thumbnails/lifestyle/2.jpg" class="img-responsive" alt="">
-                                    <div class="portfolio-box-caption">
-                                      <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">Category</div>
-                                            <div class="project-name">Lifestyle</div>
-                                      </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="modal fade bs-lifestyle-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                  <div class="modal-content">
-                                    <div id="carousel-example-lifestyle" class="carousel slide" data-ride="carousel">
-                                      <!-- Wrapper for slides -->
-                                      <div class="carousel-inner">
-                                        <div class="item active">
-                                         <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/1.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/2.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/3.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/4.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/5.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/6.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/7.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/8.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/9.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                        <div class="item">
-                                          <img class="img-responsive" src="img/portfolio/fullsize/lifestyle/10.jpg" alt="...">
-                                          <div class="carousel-caption"></div>
-                                        </div>
-                                      </div>
+                          <div class="portfolio-item" style="padding-bottom: 30px">                         
+                            <ul class="list-inline">
+                              <li data-toggle="modal" data-target="#lifestyleModal"><a href="#lifestyleGallery" data-slide-to="0"><img class="img-thumbnail" src="img/portfolio/thumbnails/lifestyle/2.jpg"><br>
+                                Lifestyle</a></li> 
 
-                                  <!-- Controls -->
-                                  <a class="left carousel-control" href="#carousel-example-lifestyle" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                  </a>
-                                  <a class="right carousel-control" href="#carousel-example-lifestyle" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                  </a>
-                                </div>
-                                    </div>
-                                  </div>
-                                </div>                            
+                              <!--begin modal window-->
+                            <div class="modal fade" id="lifestyleModal">
+                              <div class="modal-dialog">
+                               <div class="modal-content">
+                                <div class="modal-header">
+                                 <div class="pull-left">My Lifestyle Gallery</div>
+                                  <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+                                 </div>
+                                <div class="modal-body">
+
+                                <!--CAROUSEL CODE GOES HERE-->
+                                 <!--begin carousel-->
+                                  <div id="lifestyleGallery" class="carousel slide" data-interval="false">
+                                   <div class="carousel-inner">
+                                    <div class="item active"> <img src="img/portfolio/fullsize/lifestyle/1.jpg" alt="item0"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/lifestyle/2.jpg" alt="item1"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/lifestyle/3.jpg" alt="item2"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/lifestyle/4.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/lifestyle/5.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/lifestyle/6.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/lifestyle/7.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/lifestyle/8.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/lifestyle/9.jpg" alt="item3"></div>
+                                    <div class="item"> <img src="img/portfolio/fullsize/lifestyle/10.jpg" alt="item3"></div>
+                                  </div><!--end carousel-inner-->
+                                  <!--Begin Previous and Next buttons-->
+                                  <a class="left carousel-control" href="#lifestyleGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#lifestyleGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+                                  </div><!--end carousel-->
+                                </div><!--end modal-body-->
+                                
+                               </div><!--end modal-content-->
+                              </div><!--end modal-dialog-->
+                            </div><!--end myModal-->
+                          </div>                            
                         </div>
                         <div class="col-md-6">
                         <!--  <div class="portfolio-item" >                         
@@ -302,8 +244,7 @@
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>    
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>

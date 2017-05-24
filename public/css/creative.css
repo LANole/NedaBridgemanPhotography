@@ -58,6 +58,15 @@ section {
 aside {
   padding: 50px 0;
 }
+
+.modal {
+  position: absolute;  /* Needed because the carousel overrides the position property*/
+}
+
+.carousel {
+  position: absolute; /* Needed because the carousel overrides the position property*/
+}
+
 .no-padding {
   padding: 0;
 }
